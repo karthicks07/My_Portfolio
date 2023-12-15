@@ -28,9 +28,7 @@ nav{
     flex-wrap: wrap;
 }
 
-.hello h1 span{
-    color: rgb(255, 191, 0);;
-}
+
 nav ul li{
     display: inline-block;
     list-style: none;
@@ -225,7 +223,7 @@ nav ul li a:hover::after{
 }
 .services-list div:hover{
     background: rgb(214, 161, 1);
-    transform: translateY(-10px);
+    transform: translateY(-20px);
 }
 .btn{
     display: block;
@@ -310,12 +308,6 @@ form .btn.btn2{
     font-weight: 300;
     margin-top: 20px;
 }
-
-  @keyframes rotate16 {
-    to {
-      transform: rotate(360deg);
-    }
-  }
   /*-----------responsive---------*/
   nav .fa-solid{
     display: none;
